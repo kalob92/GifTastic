@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>gifBLOOM</title>
+</head>
+
+<body>
+
+    <!-- jumbotron will hold page title, directions, and all the buttons  -->
+    <div class="jumbotron" id="instructions">
+
+        <h1 class="display-4" id="page-title">gifBLOOM</h1>
+
+        <h4 id="details">Click on any topic button to get started, and find even more with the search tool below. Animate each GIF by clicking on them and again to pause!</p>
+        
+        <!-- this button toolbar holds the div that will hold the original and additional buttons -->
+        <div class="btn-toolbar" role="toolbar">
+            <div id="buttons-here" class="btn-group" role="group"><!--buttons actually go here--></div>
+        </div>
+
+    </div>
+
+    <!-- searchbox is a card to hold the actual search bar and button // float to the left -->
+    <div id="searchbox" class="card">
+        <input class="form-control form-control-lg" id="search-figs" type="text" placeholder="find more nature from the digital world">
+        <button id="submitButton" type="submit" class="btn btn-info"> e x p l o r e </button>
+    </div>
+    <!-- gifs will load here -------- should load as if floating to the right of searchbox------------- -->
+    <div id="gifs-here" class="jumbotron gifbox"></div>
+
+    <!-- ref to javascript file -->
+    <script type="text/javascript" src="assets/app.js"></script>
+</body>
+</html>

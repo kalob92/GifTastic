@@ -1,0 +1,56 @@
+body {
+    background-image: url('images/bush.jpg');
+    background-size: cover;
+}
+
+p {
+    background-color: rgb(255, 243, 139);
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 18rem;
+}
+
+#page-title {
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px;
+}
+
+
+.jumbotron {
+    text-align: end;
+    background-image: url('images/daisy-yellow.jpg');
+    background-size: cover;
+    border-bottom: 1px solid #ccc;
+}
+
+#details {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    text-align: end;
+}
+
+#buttons-here {
+    float: right;
+    padding: 8px;
+    margin: 4px;
+}
+
+#searchbox {
+    background-color: rgb(180, 212, 162);
+    padding: 10px;
+    margin: 10px 0px 0px 18px;
+    border: 2px solid rgb(78, 136, 86);
+    float: left;
+    width: 29rem;
+}
+
+.gifbox {
+    background: transparent;
+    border: none;
+}
+
+#search {
+    margin-top: 10px;
+}
+
