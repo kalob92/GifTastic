@@ -37,7 +37,7 @@ makeButtons();
 function newFig() {
     $('button').on('click', function() {
         var p = $(this).data('name');
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=eBdKlmpMsY2MaX81x6lXrtG02CTxTS6a&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=eBdKlmpMsY2MaX81x6lXrtG02CTxTS6a&limit=10";
 
         $.ajax({url:queryURL, method:'GET'})
         .done(function(response) {
